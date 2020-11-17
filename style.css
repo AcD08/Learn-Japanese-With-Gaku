@@ -1,0 +1,124 @@
+* {
+  font-family: 'Overpass', sans-serif;
+  box-sizing: border-box;
+   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 1s; /* Firefox < 16 */
+       -ms-animation: fadein 1s; /* Internet Explorer */
+        -o-animation: fadein 1s; /* Opera < 12.1 */
+           animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.jpncity-bg{
+  padding: 180px 0 100px 0;
+  background-image: url("img/jpn.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.jpncity-bg h3{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.jpncity-bg p{
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: -30px;
+}
+
+.text-bg{
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+.tab-content img{
+  margin-top: 30px;
+}
+
+.media-body{
+  margin-top: 30px;
+}
+
+i{
+  color: red;
+}
+
+section, article{
+  /* background-color: #f3ebe8; */
+  /* padding-bottom: 300px;
+  padding-top: 2%; */
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 50px;
+  min-height: 600px;
+}
+
+hr{
+  width: 200px;
+  border-top: 2px dashed red;
+}
+
+main{
+  background-color: #eee;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.writing-system h3{
+  margin-top: 50px;
+}
+
+
+footer{
+  background-color: #aaa;
+  padding-bottom: 10px;
+}
+
+footer p{
+  padding-top: 2%;
+  color: #eee;
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  iframe{
+    width: 350px;
+    height: 650px;
+
+  }
+}
